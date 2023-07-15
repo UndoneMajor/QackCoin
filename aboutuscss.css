@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(243, 253, 170);
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+.qcoin img{
+    padding-left: 42%;
+}
+.abtqck{
+    text-align: center;
+    font-family: 'TF2 Build',sans-serif;
+    font-size: 3vh;
+}
+.name{
+    text-align: center;
+    font-family: 'TF2 Build',sans-serif;
+}
+.buyitt a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(243, 253, 170);
+    border: 6px solid rgb(86, 86, 28);
+    margin-left: 44%;
+    font-size: 3vh;
+    font-family: 'TF2 Build',sans-serif;
+}

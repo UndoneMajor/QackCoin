@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(244, 248, 130) ;
+    animation: enterbuy 1s ease 0s 1 normal forwards;
+}
+@keyframes enterbuy {
+	0% {
+		opacity: 0;
+		transform: rotateY(100deg);
+		transform-origin: left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: left;
+	}
+}
+.duckie img{
+    transform: scaleX(-1);
+}
+.heads{
+    display: flex;
+}
+form {
+    font-family: Arial;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin-left: 120px;
+  }
+  .container p{
+    font-family: 'TF2 Build';
+    color: rgb(200, 205, 50);
+    text-align: center;
+  }
+  .container h2{
+    font-family: 'TF2 Build',sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 165, 73);
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  .Thanks{
+    font-family: 'TF2 Build',sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 30vh;
+  }
+  .goback{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 3vh;
+    color: black;
+  }
+  .goback a{
+    background-color: yellow;
+    border: 1px solid black;
+  }

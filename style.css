@@ -1,0 +1,317 @@
+body{
+    display: flex;
+    background: linear-gradient(45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
+    animation: color 5s ease-in-out infinite, enter 1s ease 0s 1 normal forwards;
+    min-height: 97.5vh;
+    display: flex;
+    flex-direction: column;
+    background-size: 300% 300%;
+}
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes enter {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gif1 img{
+    width: 14vh;
+    height: 14vh;
+}
+.gif2 img{
+    width: 14vh;
+    height: 14vh;
+    transform: scaleX(-1);
+}
+.header{
+    display: flex;
+    align-items: center;
+    box-align: center;
+    background-color: rgb(65, 67, 52);
+    width: 50%;
+    height: 85px;
+    box-sizing: border-box;
+    border: 10px solid rgb(245, 253, 7);
+    border-radius: 25px;
+    justify-content: center;
+}
+.header div{
+    margin: auto;
+}
+.logo{
+    font-family: 'Nabla', cursive;
+    font-size: 5vh;
+}
+.buy{
+    font-family: 'TF2 Build', cursive;
+    color:rgb(245, 253, 7);
+    font-size: 4vh;
+}
+.buy a{
+   color: rgb(245, 253, 7);
+    text-decoration: none;
+    background:
+    linear-gradient(
+    to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(240, 250, 7, 1),
+      rgba(245, 253, 7)
+  );
+  background-size: 0% 1px, 0 3px;
+  background-position: 0% 110%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms,font-size 1s;;
+}
+.buy a:hover{
+        background-size: 0 1px, 110% 2px;
+        font-size: 55px;
+      }
+
+.aboutus{
+    font-family: 'TF2 Build', cursive;
+    color: rgb(245, 253, 7);
+    font-size: 4vh;
+}
+.aboutus a{
+   color: rgb(245, 253, 7);
+   text-decoration: none;
+    transition: font-size 1.2s;
+    background:
+    linear-gradient(
+      to left,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to left,
+      rgba(245, 253, 7),
+      rgba(240, 250, 7, 1),
+      rgba(255, 0, 0, 1)
+  );
+  background-size: 0% 1px, 0 3px;
+  background-position: 0% 110%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms,font-size 1s;
+}
+.aboutus a:hover{
+    background-size: 0 1px, 110% 2px;
+    font-size: 55px;
+}
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 1000px) {
+    .gif1 img{
+        width: 3vh;
+        height: 3vh;
+    }
+    .gif2 img{
+        width: 3vh;
+        height: 3vh;
+    }
+    .header{
+        width: 100%;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .buy{
+        font-size: 2vh;
+    }
+    .aboutus{
+        font-size: 2vh;
+    }
+    .aboutus a:hover{
+        font-size:18px;
+    }
+    .buy a:hover{
+        font-size:18px;
+    }
+    .qack{
+        z-index: 1;
+    }
+    .qack img{
+        padding-left: 1px;
+        width: 40vh;
+        height: 40vh;
+        flex-grow: 1;
+        z-index: 1;
+        visibility: hidden;
+    }
+    .whatisnest{
+        margin: auto;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .whatis{
+        width: 10000px;
+        justify-content: center;
+        background-color:rgb(65, 67, 52);
+        align-items: center;
+        align-content: center;
+        flex-grow: 1;
+        height: 115vh;
+        font-family: 'TF2 Build', sans-serif;
+        text-align: center;     
+        border-radius: 5vh;   
+        color: rgb(245, 253, 7);  
+        font-size: 1.2vh;        
+        margin-right: 200px;        
+        padding-bottom: 100px;   
+  
+        
+    }
+}
+.whatisnest{
+    padding-left: 14%;
+    width: 60%;
+    display: flex;
+    padding-top: 95px;
+    
+}
+.qack{
+    z-index: 1;
+}
+.qack img{
+    padding-left: 30.5%;
+    padding-bottom: 40px;
+    width: 25vh;
+    height: 20vh;
+    flex-grow: 1;
+    z-index: 1;
+}
+.whatis{
+    justify-content: center;
+    background-color:rgb(65, 67, 52);
+    align-items: center;
+    align-content: center;
+    flex-grow: 1;
+    height: 100%;
+    font-family: 'TF2 Build', sans-serif;
+    text-align: center;     
+    border-radius: 5vh;   
+    box-sizing: border-box;
+    border: 20px solid rgb(65, 67, 52);
+    color: rgb(245, 253, 7);    
+    font-size: 3vh;                     
+}
+.title{
+    font-size: 4vh;
+    animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+}
+@keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:#AC92EC;
+    }
+  }
+.getstarted{
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    
+}
+.getstarted button{
+    color:rgb(65, 67, 52);
+    background-color:rgb(245, 253, 7);
+    width: 45vh;
+    height: 10vh;
+    border-radius: 20px;
+    font-family: 'TF2 Build',sans-serif;
+    font-size: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.getstarted button:hover{
+    color: rgb(245, 253, 7);
+    background-color: rgb(65, 67, 52);
+    font-size: 150%;
+}
+button.pointer{
+    cursor:grab;
+}
+footer{
+   margin: auto;
+    background-color:rgb(65, 67, 52);
+    height: 15vh;
+    width: 50%;
+    margin-top: auto;
+}
+.footermoment{
+    height: 3vh;
+    text-align: center;
+    font-family: 'TF2 Build',sans-serif;
+    font-size: 3vh;
+    color: rgb(245, 253, 7);
+}
+.fb img{
+    width: 8.5vh;
+    margin-left: 25px;
+}
+.yt img{
+    width: 8.5vh;
+}
+.git img{
+   width: 8.5vh;
+   margin-right: 25px;
+}
+.dis img{
+   width: 8.5vh;
+   margin-right: 25px;
+}
+.nest{
+    display: flex;
+    justify-content: space-between;
+}
+.nest img{
+   transition: all 1s;
+}
+.nest img:hover{
+   transform: scale(1.4);
+}
