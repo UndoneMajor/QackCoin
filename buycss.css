@@ -75,10 +75,11 @@ form {
     color: black;
   }
   .goback a{
-    background-color: yellow;
+    font-family: 'TF2 Build',sans-serif;
+    background-color: rgb(97, 97, 95);
     border: 1px solid black;
   }
   .goback a:hover{
     background-color: black;
-    color: yellow;
+    color: rgb(255, 255, 28);
   }
