@@ -59,6 +59,10 @@ body{
 .logo{
     font-family: 'Nabla', cursive;
     font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60%;
 }
 .buy{
     font-family: 'TF2 Build', cursive;
