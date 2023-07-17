@@ -186,7 +186,8 @@ and (max-device-width : 1000px) {
         font-size: 1.2vh;        
         margin-right: 200px;        
         padding-bottom: 100px;   
-  
+        border: 10px solid rgb(245, 253, 7);
+        border-radius: 25px;
         
     }
 }
@@ -219,7 +220,7 @@ and (max-device-width : 1000px) {
     text-align: center;     
     border-radius: 5vh;   
     box-sizing: border-box;
-    border: 20px solid rgb(65, 67, 52);
+    border: 10px solid rgb(245, 253, 7);
     color: rgb(245, 253, 7);    
     font-size: 3vh;                     
 }
