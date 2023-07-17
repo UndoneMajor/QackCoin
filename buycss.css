@@ -1,8 +1,8 @@
 body{
-    animation: enterbuy 1s ease 0s 1 normal forwards,color 5s ease-in-out infinite;
+    animation: enterbuy 1s ease 0s 1 normal forwards,colorful 5s ease-in-out infinite;
     background: (45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
 }
-@keyframes color{
+@keyframes colorful{
   0%{
       background-position: 0% 50%;
   }
