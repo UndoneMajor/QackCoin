@@ -1,5 +1,4 @@
 body{
-    background-color:rgb(244, 248, 130) ;
     animation: enterbuy 1s ease 0s 1 normal forwards,color 5s ease-in-out infinite, 1s ease 0s 1 normal forwards;
     background: (45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
 }
