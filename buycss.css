@@ -1,18 +1,6 @@
 body{
-    background: (45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
-    animation: colorful 5s ease-in-out infinite,enterbuy 1s ease 0s 1 normal forwards;
-
-}
-@keyframes colorful{
-  0%{
-      background-position: 0% 50%;
-  }
-  50%{
-      background-position: 100% 50%;
-  }
-  100%{
-      background-position: 0% 50%;
-  }
+    background-color: rgba(236, 187, 79, 0.637);
+    animation:enterbuy 1s ease 0s 1 normal forwards;
 }
 @keyframes enterbuy {
 	0% {
@@ -77,21 +65,30 @@ form {
     font-family: 'TF2 Build',sans-serif;
     text-align: center;
     margin: auto;
-    padding-top: 30vh;
+    
   }
   .goback{
+    width: 150px;
     text-align: center;
     margin: auto;
     text-decoration: none;
     font-size: 3vh;
-    color: black;
+    color: rgb(255, 255, 28);
+    transition: all 0.3s;
+    border-radius: 15px;
   }
   .goback a{
     font-family: 'TF2 Build',sans-serif;
-    background-color: rgb(97, 97, 95);
+    background-color: rgb(0, 0, 0);
     border: 1px solid black;
   }
   .goback a:hover{
-    background-color: black;
-    color: rgb(255, 255, 28);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(107, 87, 0);
+    border: 0px;
+    font-size:35px;
+  }
+  .duckpicfly{
+    display: flex;
+    justify-content: center;
   }
