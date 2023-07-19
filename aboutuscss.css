@@ -4,7 +4,7 @@ body{
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
-    animation: color 5s ease-in-out infinite, 1s ease 0s 1 normal forwards;
+    animation: color 5s ease-in-out infinite 1s ease 0s 1 normal forwards;
     background: linear-gradient(45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
 }
 @keyframes color{
