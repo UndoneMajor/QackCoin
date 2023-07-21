@@ -37,30 +37,36 @@ body{
 }
 form {
     font-family: Arial;
+
+    border-radius: 10px;
+    animation: rainbow 3s infinite;
 }
   .container {
     width: 100%;
-
-    background-color: #f1f1f1;
+    padding: 15px;
+    background-color: white;
  
   }
   .container p{
     font-family: 'TF2 Build';
     color: rgb(200, 205, 50);
+
     text-align: center;
+    padding: 25px;
   }
   .container h2{
     font-family: 'TF2 Build',sans-serif;
     text-align: center;
     font-size: 4vh;
     color: rgb(236, 165, 73);
+
   }
   input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #885151;
     box-sizing: border-box;
   }
   input[type=checkbox] {
@@ -68,7 +74,7 @@ form {
   }
   input[type=submit] {
     background-color: #04AA6D;
-    color: white;
+    color: black;
     border: none;
   }
   input[type=submit]:hover {
@@ -106,8 +112,7 @@ form {
     justify-content: center;
   }
   footer{
-    display: block;
-    background-color: #04AA6D;
+    padding-top: 150px;
   }
   *{
     margin: 0;
@@ -126,6 +131,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+
 }
 .contr .coin-price{
     display: flex;
@@ -133,13 +139,23 @@ body{
     align-items: center;
     padding: 10px 20px;
     border-radius: 5px;
-    box-shadow: 0 0 3px #ccc;
-    margin: 7px;
+    margin: 20px;
+    background-color: gray;
+ 
+    animation: rainbow 3s infinite;
+}
+@keyframes rainbow {
+	from, to { box-shadow: 0 0 15px 0 red }
+	16% { box-shadow: 0 0 15px 15px  yellow }
+	32% { box-shadow: 0 0 15px 15px  green }
+	48% { box-shadow: 0 0 15px 15px  aqua }
+	64% { box-shadow: 0 0 15px 15px  blue }
+	80% { box-shadow: 0 0 15px 15px  fuchsia }
 }
 
 .contr .coin-price .logo{
     width: 70px;
-    margin-right: 10px;
+    margin-right: 35px;
 }
 .contr .coin-price .logo img{
     width: 100%;
