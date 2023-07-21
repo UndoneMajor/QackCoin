@@ -3,7 +3,6 @@ body{
     background: linear-gradient(45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
     animation: color 5s ease-in-out infinite, enter 1s ease 0s 1 normal forwards;
     min-height: 97.5vh;
-    display: flex;
     flex-direction: column;
     background-size: 300% 300%;
 }
@@ -31,21 +30,19 @@ body{
 		transform-origin: left;
 	}
 }
-.duckie img{
-    transform: scaleX(-1);
-}
 .heads{
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 form {
     font-family: Arial;
-  }
-  
+}
   .container {
     width: 100%;
-    padding: 15px;
+
     background-color: #f1f1f1;
-    margin-left: 120px;
+ 
   }
   .container p{
     font-family: 'TF2 Build';
@@ -108,3 +105,48 @@ form {
     display: flex;
     justify-content: center;
   }
+  footer{
+    display: block;
+    background-color: #04AA6D;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TF2 Build',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.contr .coin-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    margin: 7px;
+}
+
+.contr .coin-price .logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.contr .coin-price .logo img{
+    width: 100%;
+}
+.contr .coin-price div{
+    display: block;
+}
+.contr .coin-price div h1{
+    font-size: 20px;
+}
