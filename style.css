@@ -195,7 +195,6 @@ and (max-device-width : 1000px) {
     padding-left: 14%;
     width: 60%;
     display: flex;
-    padding-top: 95px;
     
 }
 .qack{
@@ -317,4 +316,8 @@ footer{
 }
 .nest img:hover{
    transform: scale(1.4);
+}
+.ad{
+    display: flex;
+    justify-content:  center;
 }
