@@ -1,6 +1,22 @@
 body{
-    background-color: rgba(236, 187, 79, 0.637);
-    animation:enterbuy 1s ease 0s 1 normal forwards;
+    display: flex;
+    background: linear-gradient(45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
+    animation: color 5s ease-in-out infinite, enter 1s ease 0s 1 normal forwards;
+    min-height: 97.5vh;
+    display: flex;
+    flex-direction: column;
+    background-size: 300% 300%;
+}
+@keyframes color{
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
 }
 @keyframes enterbuy {
 	0% {
