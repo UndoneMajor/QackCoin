@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    background: linear-gradient(45deg,#d8bc2d,#ffef0b,#f48e21,#e7ff0b);
+    animation: color 5s ease-in-out infinite, enter 1s ease 0s 1 normal forwards;
+    min-height: 97.5vh;
+    flex-direction: column;
+    background-size: 300% 300%;
+}
+@keyframes color{
+  0%{
+      background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+}
+@keyframes enterbuy {
+	0% {
+		opacity: 0;
+		transform: rotateY(100deg);
+		transform-origin: left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: left;
+	}
+}
+.heads{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+    font-family: Arial;
+
+    border-radius: 10px;
+    animation: rainbow 3s infinite;
+}
+  .container {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+ 
+  }
+  .container p{
+    font-family: 'TF2 Build';
+    color: rgb(200, 205, 50);
+
+    text-align: center;
+    padding: 25px;
+  }
+  .container h2{
+    font-family: 'TF2 Build',sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 165, 73);
+
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #885151;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: black;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  .Thanks{
+    font-family: 'TF2 Build',sans-serif;
+    text-align: center;
+    margin: auto;
+    
+  }
+  .goback{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 3vh;
+    color: rgb(255, 255, 28);
+    transition: all 0.3s;
+    border-radius: 15px;
+  }
+  .goback a{
+    font-family: 'TF2 Build',sans-serif;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  .goback a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(107, 87, 0);
+    border: 0px;
+    font-size:35px;
+  }
+  .duckpicfly{
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    padding-top: 150px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TF2 Build',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.contr .coin-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: gray;
+ 
+    animation: rainbow 3s infinite;
+}
+@keyframes rainbow {
+	from, to { box-shadow: 0 0 15px 0 red }
+	16% { box-shadow: 0 0 15px 15px  yellow }
+	32% { box-shadow: 0 0 15px 15px  green }
+	48% { box-shadow: 0 0 15px 15px  aqua }
+	64% { box-shadow: 0 0 15px 15px  blue }
+	80% { box-shadow: 0 0 15px 15px  fuchsia }
+}
+
+.contr .coin-price .logo{
+    width: 70px;
+    margin-right: 35px;
+}
+.contr .coin-price .logo img{
+    width: 100%;
+}
+.contr .coin-price div{
+    display: block;
+}
+.contr .coin-price div h1{
+    font-size: 20px;
+}
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 1000px) {
+  form{
+    width: 290px;
+  }
+  .contr .coin-price{
+
+    margin: 5px;
+    width: 85px;
+    font-size: 5px;
+  }
+  .contr .coin-price div h1{
+    font-size: 13px;
+  }
+  .contr .coin-price .logo{
+    margin-right: 5px;
+  }
+}
