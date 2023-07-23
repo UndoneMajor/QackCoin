@@ -166,3 +166,22 @@ body{
 .contr .coin-price div h1{
     font-size: 20px;
 }
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 1000px) {
+  form{
+    width: 290px;
+  }
+  .contr .coin-price{
+
+    margin: 5px;
+    width: 85px;
+    font-size: 5px;
+  }
+  .contr .coin-price div h1{
+    font-size: 13px;
+  }
+  .contr .coin-price .logo{
+    margin-right: 5px;
+  }
+}
