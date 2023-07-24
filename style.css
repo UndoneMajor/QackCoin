@@ -321,3 +321,10 @@ footer{
     display: flex;
     justify-content:  center;
 }
+.ad1{
+    background-color: #4FC1E9;
+    display: flex;
+    width: 200px;
+    align-content: center;
+    justify-content: center;
+}
